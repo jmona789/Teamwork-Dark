@@ -1,0 +1,184 @@
+td, 
+#privOpts, 
+#sidebar,
+.section, 
+.ladda-button, 
+.inlineButton, 
+.ppd, 
+.main-tabs__list, 
+.atwho-inserted, 
+div.mce-edit-area, 
+.notify-user-list, 
+.main-tabs__label, 
+.notify-user-list-user, 
+ul.AllComments div.formatted p, 
+ul.AllComments li div.name span.user, 
+ul.AllComments li.comment, 
+.pseudo-textarea,
+div.taskList,
+.view-body,
+.task-groupHold,
+.task-groupHold.isMainTask,
+.task-row ,
+.mlogo,
+.tpd-content-wrapper,
+.sectionContent,
+div.tippedLightInner,
+.tasks--container .taskDescWrap .taskDescription,
+.rd-container,
+.rd-month-label,
+/* file attachments */
+.file, .mfpFiles, 
+/* dashboard*/
+.activityGroup .activityRow { 
+    background-color:#333333 !important;
+    color:#dddddd !important;
+}
+/* main text color*/
+body, 
+td, 
+section, 
+div, 
+span,
+p, 
+span,
+div, 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, 
+form,
+i,
+.mce-ico, 
+.widget-wysiwyg-editor 
+.wysiwyg-editor 
+.mce-ico.mce-i-removeformat:before, 
+.widget-wysiwyg-editor .wysiwyg-editor .mce-toolbar>.mce-flow-layout>.mce-first .mce-first.mce-btn-has-text button span.mce-txt:before,
+.AllComments .commentBodyPart .formatted.comment-text ul li, .AllComments .commentHeaderPart .formatted.comment-text ul li,
+.projectCompany{
+    color:#dddddd !important;
+}
+/* label on comment icon */
+.overIcon-label {
+    color:#333333 !important;
+}
+/* menu for picking a paerson to tag in comments */
+li.mention-el.person:not(.cur) {
+    background-color:#333333 !important;
+}
+/* svg icons fill */
+svg.tipped-hide.ma {
+    fill: #dddddd;
+}
+button i.mce-caret {
+   border-top-color: #dddddd !important;
+}
+div.mce-container-body.mce-flow-layout {
+    background-color:#000000 !important;
+}
+.rd-day-today:before {
+    border: 1px solid #ffffff;
+}
+/* file attachemnt box, code snippets */
+.pmpAttachmentContent, .pmpAttachmentContent ul, .language-markup {
+    background-color: #454545 !important;
+    color:#dddddd !important;
+}
+/*code snippets */
+.language-markup {
+    text-shadow:none !important;
+}
+/* buttons */
+button, 
+button.btn.btn-default,
+.select2, 
+span.select2-selection.select2-selection--single, 
+a.btn.btn-default.btn-sm.like,
+span.attachmentSources.btn.btn-default.btn-sm.btn-mr.tw-upload-files,
+/* tags */
+.boardColumn-label.tipped-delegate,
+.boardColumn-label,
+/* time estimate */
+span.estimate.tipped.task-estimatedTimeValue,
+/* edit comment followers lightbox */
+.sectionFormLightbox .title,
+textarea
+{
+    background-color:#000000 !important;
+    color:#dddddd !important;
+}
+/* dashboard activityGroup header*/
+.activityGroup .h3wrap,
+/* tasklist Header */
+h3.tlh3.tasklistHeader, 
+h3.tlh3.tasklistHeader a
+{
+    background-color:#444444 !important;
+    color:#dddddd !important;
+    border-radius:5px;
+}
+.ladda-button {
+    border:1px solid #fff !important;
+}
+.rd-next,
+.rd-back {
+    /*will be inverted alongwith image  */
+    background-color: #fff !important;
+}
+.blank-slate__image img,
+.blankSlate img,
+.rd-next,
+.rd-back  {
+    filter: invert(93.3%)brightness(3);
+}
+/* user dropdown */
+.tpd-content-wrapper {
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+a.taskBubble {
+    color:#dddddd !important;
+    background-color: #000000;
+    border-radius: 10px;
+}
+a.taskBubble.mine, span.taskBubble.mine {
+    background-color: #1d6f00;
+    color: #dddddd;
+}
+
+span.assignedTo {
+    background-color:#333333;
+}
+/* links */
+a, a.blue2, body#dashboard .projectActivity h3 a.pn{
+    color:#759dff !important;
+}
+a.blue, .tasks--container a.blue:not(.cancel) {
+    color: #00BCD4 !important;
+}
+.mlogo img {
+    filter: invert(1) hue-rotate(180deg);
+}
+.uImg {
+    z-index:10000;
+}
+.taskBubble:before {
+    background: transparent;
+}
+i.fa.fa-check.no-print {
+    color: #fff;
+    opacity: 1 !important;
+}
+a.taskBubble.mine:hover {
+    background-color: #299d00;
+    color:#dddddd;
+}
+/* WYSIWYG FIXES */
+.widget-wysiwyg-editor .wysiwyg-editor .mce-toolbar>.mce-flow-layout>.mce-first .mce-first.mce-btn-has-text button span.mce-txt {
+    color:transparent !important;
+}
+.widget-wysiwyg-editor .wysiwyg-editor.wysiwyg--comment div.mce-toolbar-grp {
+    border:0;    
+}
